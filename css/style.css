@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+fieldset{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #FFD2D2;
+	padding: 20px;
+	background: #FFF4F4;
+	box-shadow: inset 0px 0px 15px #9F2B68;
+	-moz-box-shadow: inset 0px 0px 15px #9F2B68;
+	-webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+    
+}
+
+
+fieldset legend{
+	color:#9F2B68; 
+	border-top: 1px solid #9F2B68;
+	border-left: 1px solid #9F2B68;
+	border-right: 1px solid #9F2B68;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	background: #FFF4F4;
+	padding: 0px 8px 3px 8px;
+	box-shadow: -0px -1px 2px #9F2B68;
+	-moz-box-shadow:-0px -1px 2px #9F2B68;
+	-webkit-box-shadow:-0px -1px 2px #9F2B68;
+	font-weight: normal;
+	font-size: 12px;
+    }
+input{
+    border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: 1px solid #FFC2DC;
+	outline: none;
+	color: #F072A9;
+	padding: 5px 8px 5px 8px;
+	box-shadow: inset 1px 1px 4px #FFD5E7;
+	-moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+	-webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+	background: #FFEFF6;
+	width:50%;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.breakpoint-max{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px;
+}
+
+.mensaje {
+    margin-top: 5px;
+    color: red;
+    
+}
+
+button {    
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th,
+ td {
+    padding: 12px 15px;
+}
+thead tr {
+    background-color: #FFA0C9;
+    color: #ffffff;
+    text-align: left;
+}
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+tbody tr:last-of-type {
+    border-bottom: 2px solid #FFA0C9;
+}
+tbody tr.active-row {
+    font-weight: bold;
+    color: #FFA0C9;
+}
+#enviar {
+    background-color: rgb(131, 210, 131);
+    border-radius: 5px;
+}
+
+#enviar:hover {
+    background-color: rgb(13, 216, 13);
+}
+
+#resetear {
+    background-color: red;
+    border-radius: 5px;
+
+}
+#resetear:hover {
+    background-color: darkred;
+}
+
+span {
+    color: rgb(51, 2, 2);
+    padding: 10px;
+cursor: pointer;
+}
+#botonEliminar {
+    background-color: red;
+    border-radius: 5px;
+
+}
+#botonEliminar:hover {
+    background-color: darkred;
+}
+
+#botonEditar {
+    background-color: rgb(18, 18, 254);
+    border-radius: 5px;
+
+}
+#botonEditar:hover {
+    background-color: darkblue;
+}
+
+#editarFila {
+    background-color: rgb(75, 158, 185);
+    border-radius: 5px;
+}
+#editarFila:hover {
+    background-color: darkblue;
+}
+
+#enviar[disabled] {
+    background-color: gray;
+}
+
+
+#usuarioAceptado{
+    color: green;
+    text-align: center;
+    font-size: 28px;
+}
+#formAceptado{
+    color: green;
+    text-align: center;
+    font-size: 28px;
+}
